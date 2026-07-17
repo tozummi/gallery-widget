@@ -1,16 +1,16 @@
 const images = [
   {
-    src: "images/exterior.jpg",
+    src: "galleries/exterior.jpg",
     caption: "🏡 Ratford Bridge Farmhouse",
     position: "center"
   },
   {
-    src: "images/garden.jpg",
+    src: "galleries/garden.jpg",
     caption: "🌿 Riverside Garden",
     position: "bottom"
   },
   {
-    src: "images/kitchen.jpg",
+    src: "galleries/kitchen.jpg",
     caption: "🍽 Kitchen & Dining Area",
     position: "center"
   }
