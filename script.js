@@ -1,3 +1,4 @@
+const layout = "landscape";
 const images = houseGallery;
 
 
@@ -9,7 +10,7 @@ const counter = document.getElementById("counter");
 images.forEach((item) => {
 
   const slide = document.createElement("div");
-  slide.className = "swiper-slide";
+  slide.className = `swiper-slide ${layout}`;
 
   slide.innerHTML = `
     <img 
