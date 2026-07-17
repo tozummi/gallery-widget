@@ -13,15 +13,17 @@ images.forEach((item) => {
   slide.className = `swiper-slide ${layout}`;
 
   slide.innerHTML = `
-    <img 
-      src="${item.src}" 
-      style="object-position:${item.position};"
-    >
+  <img
+    src="${item.src}"
+    style="object-position:${item.position};"
+  >
 
-    <div class="caption">
-      ${item.caption}
-    </div>
-  `;
+  <div class="slide-counter"></div>
+
+  <div class="caption">
+    ${item.caption}
+  </div>
+`;
 
   gallery.appendChild(slide);
 
