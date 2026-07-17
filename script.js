@@ -54,6 +54,7 @@ const swiper = new Swiper(".swiper", {
   grabCursor: true,
 
   loop: true,
+  loopAdditionalSlides: 3,
 
   effect: "coverflow",
 
